@@ -1,0 +1,47 @@
+/* pages/main/mainpage.wxss */
+.header_style {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.title_style {
+  width: max-content;
+  text-align: center;
+  color: #000;
+}
+
+.money_view_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.moneystr_style {
+  color: #000;
+  font-size: 12px;
+}
+.money_style {
+  position: relative;
+  font-size: 16px;
+  color: #000;
+  lighting-color: #bebebe;
+  width: 80px;
+  background: url("../image/putin_bg.png")
+}
+.money_img_style {
+  height: 10px;
+  width: 10px;
+}
+.tip_view_style {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.tip_style {
+  font-size: 15px;
+  color: #aaa;
+}

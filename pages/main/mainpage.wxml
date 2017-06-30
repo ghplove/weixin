@@ -1,0 +1,13 @@
+<view class="mainpage">
+  <view class="header_style">
+    <text class="title_style">{{title}}</text>
+  </view>
+  <view class="money_view_style">
+    <text name="moneyStr" class="moneystr_style">金额：</text>
+    <input  name="money" class="money_style" placeholder="10,000"/> 
+    <image src="../image/ic_check.png" class="money_img_style"></image>
+  </view>
+  <view class="tip_view_style">
+    <text class="tip_style">{{tip}}</text>
+  </view>
+</view>
